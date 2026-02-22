@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Lưu HAR - Export HAR as ZIP",
+  "version": "3.0",
+  "description": "Lưu tất cả network requests thành file HAR và xuất ra ZIP thật",
+  "permissions": [
+    "debugger",
+    "downloads",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Lưu HAR"
+  },
+  "web_accessible_resources": [{
+    "resources": ["libs/*"],
+    "matches": ["<all_urls>"]
+  }]
+}
