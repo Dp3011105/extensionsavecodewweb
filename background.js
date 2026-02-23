@@ -594,7 +594,8 @@ function taoTrangChinh(tab, allRequests, allFiles) {
     </div>
     
     <p style="margin-top: 30px; color: #666; font-style: italic;">
-      ⚡ Được tạo bởi Lưu HAR Extension - Accumulated Capture
+            Được tạo bởi SAVE CODE - Đức Phước 
+
     </p>
   </div>
 </body>
